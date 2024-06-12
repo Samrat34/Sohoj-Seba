@@ -1,0 +1,57 @@
+#banner {
+    margin-top: 150px;
+    background-image: url('../img/ambu2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Optional: Adjust text color for better readability */
+    padding: 100px 0; /* Optional: Adjust padding as needed */
+}
+
+/* Optional: Additional styles to ensure text remains readable */
+#banner h1,
+#banner p {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+#cbanner {
+    background: #f5f5f5;
+    margin-top: 150px;
+    padding: 100px 0;
+    position: relative; /* Ensure the section is positioned */
+    overflow: hidden; /* Hide overflow to prevent image overflow */
+}
+
+#cbanner .cbanner-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/ambu.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Adjust opacity as needed */
+}
+
+#cbanner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000; /* Adjust text color for visibility */
+    z-index: 2; /* Ensure text is above background image */
+}
+
+#cbanner h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.cbanner-img {
+    text-align: center;
+}
+
+.cbanner-img img {
+    display: none; /* Hide if not needed */
+}
