@@ -14,7 +14,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -29,11 +31,14 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/new.css" rel="stylesheet">
+    <style>
+
+    </style>
 </head>
 
 <body>
     <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div id="topbar" class="d-flex align-items-center fixed-top" style="z-index: 9999;">
         <div class="container d-flex justify-content-between">
             <div class="contact-info d-flex align-items-center">
                 <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
@@ -48,169 +53,178 @@
         </div>
     </div>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top" style="z-index: 9999; ">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo me-auto"><a href="home.html">Sohoz Seba</a></h1>
+            <h1 class="logo me-auto"><a href="index.html">Sohoz Seba</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="about.html">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-                    <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="doctors.html">Doctors</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->
 
-            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span>
+                Appointment</a>
 
         </div>
     </header>
     <!-- End Header -->
 
-<!-- ======= Banner Section ======= -->
-<section id="banner" class="banner" style="margin-top:150px">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-xl-8 col-lg-10">
-                <h1>Welcome to Sohoz Seba</h1>
-                <p>Your trusted partner in seamless service delivery.</p>
-                <a href="#about" class="btn-get-started">Learn More</a>
+
+    <section id="banner" class="banner" style="margin-top:150px">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-xl-8 col-lg-10">
+                    <h1>Welcome to Sohoz Seba</h1>
+                    <p>Your trusted partner in seamless service delivery.</p>
+                    <a href="#about" class="btn-get-started">Learn More</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End Banner Section -->
-<!-- ======= About Section ======= -->
-<section id="about" class="about">
-    <div class="row justify-content-center">
-        <div class="col-xl-10 col-lg-8 icon-boxes d-flex flex-column justify-content-center py-5 px-lg-5">
-            <div class="section-title">
-                <h2>About Sohoz Seba</h2>
-            </div>
-            <p>Sohoz Seba is dedicated to simplifying your life with a wide range of services at your fingertips. From household needs to professional services, we ensure that everything is just a click away. Our mission is to provide reliable, efficient, and high-quality service solutions tailored to meet the diverse needs of our community.</p>
-
-            <div class="icon-box">
-                <div class="icon"><i class="bx bx-user"></i></div>
-                <h4 class="title"><a href="">Personalized Services</a></h4>
-                <p class="description">Our services are designed to meet individual requirements, ensuring personalized solutions for each user. Whether you need a handyman, a cleaner, or tech support, Sohoz Seba has got you covered.</p>
-            </div>
-
-            <div class="icon-box">
-                <div class="icon"><i class="bx bx-shield"></i></div>
-                <h4 class="title"><a href="">Trusted Professionals</a></h4>
-                <p class="description">We only work with verified and experienced professionals. Our rigorous selection process ensures that you receive top-notch services from trustworthy providers.</p>
-            </div>
-
-            <div class="icon-box">
-                <div class="icon"><i class="bx bx-timer"></i></div>
-                <h4 class="title"><a href="">Quick and Easy</a></h4>
-                <p class="description">With Sohoz Seba, booking a service is quick and hassle-free. Our user-friendly platform allows you to schedule services at your convenience, ensuring that you get what you need, when you need it.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End About Section -->
-
-        <!-- ======= Frequently Asked Questions Section ======= -->
-        <section id="faq" class="faq section-bg">
-            <div class="container">
-
+    </section>
+    <!-- End Banner Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-8 icon-boxes d-flex flex-column justify-content-center py-5 px-lg-5">
                 <div class="section-title">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
+                    <h2>About Sohoz Seba</h2>
+                </div>
+                <p>Sohoz Seba is dedicated to simplifying your life with a wide range of services at your fingertips.
+                    From household needs to professional services, we ensure that everything is just a click away. Our
+                    mission is to provide reliable, efficient,
+                    and high-quality service solutions tailored to meet the diverse needs of our community.</p>
+
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-user"></i></div>
+                    <h4 class="title"><a href="">Personalized Services</a></h4>
+                    <p class="description">Our services are designed to meet individual requirements, ensuring
+                        personalized solutions for each user. Whether you need a handyman, a cleaner, or tech support,
+                        Sohoz Seba has got you covered.</p>
                 </div>
 
-                <div class="faq-list">
-                    <ul>
-                        <li data-aos="fade-up">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                                data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
-                                    class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim
-                                nunc? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing
-                                elit? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna
-                                    molestie at elementum eu facilisis sed odio morbi quis
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam
-                                sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare.
-                                Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                    class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-shield"></i></div>
+                    <h4 class="title"><a href="">Trusted Professionals</a></h4>
+                    <p class="description">We only work with verified and experienced professionals. Our rigorous
+                        selection process ensures that you receive top-notch services from trustworthy providers.</p>
                 </div>
 
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-timer"></i></div>
+                    <h4 class="title"><a href="">Quick and Easy</a></h4>
+                    <p class="description">With Sohoz Seba, booking a service is quick and hassle-free. Our
+                        user-friendly platform allows you to schedule services at your convenience, ensuring that you
+                        get what you need, when you need it.</p>
+                </div>
             </div>
-        </section>
-        <!-- End Frequently Asked Questions Section -->
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi
+                    quidem hic quas.</p>
+            </div>
+
+            <div class="faq-list">
+                <ul>
+                    <li data-aos="fade-up">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                            data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
+                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                            <p>
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="100">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim
+                            nunc? <i class="bx bx-chevron-down icon-show"></i><i
+                                class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                cursus turpis massa tincidunt dui.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing
+                            elit? <i class="bx bx-chevron-down icon-show"></i><i
+                                class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis
+                            </p>
+                        </div>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="300">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam
+                            sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i
+                                class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare.
+                            Varius vel pharetra vel turpis nunc eget lorem dolor? <i
+                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
+                                integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                                eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Frequently Asked Questions Section -->
+
+
+
 
 
     <!-- ======= Footer ======= -->
@@ -243,13 +257,18 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Child Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Old Age Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Ambulance Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Home Nursing Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Medical Equipment Rental</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Physical Therapy Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Emergency Response Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Companion Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Telehealth Service</a></li>
                         </ul>
                     </div>
+
 
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Join Our Newsletter</h4>
@@ -286,7 +305,8 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

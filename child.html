@@ -14,7 +14,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -29,11 +31,14 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/new.css" rel="stylesheet">
+    <style>
+
+    </style>
 </head>
 
 <body>
     <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div id="topbar" class="d-flex align-items-center fixed-top" style="z-index: 9999;">
         <div class="container d-flex justify-content-between">
             <div class="contact-info d-flex align-items-center">
                 <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
@@ -48,121 +53,116 @@
         </div>
     </div>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top" style="z-index: 9999; ">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo me-auto"><a href="home.html">Sohoz Seba</a></h1>
+            <h1 class="logo me-auto"><a href="index.html">Sohoz Seba</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="about.html">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-                    <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="doctors.html">Doctors</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->
 
-            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span>
+                Appointment</a>
 
         </div>
     </header>
     <!-- End Header -->
-    <body>
-        <!-- ======= Custom Banner Section ======= -->
-        <section id="cbanner" class="d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <h1>Welcome to Sohoz Seba</h1>
-                        <h2>We Care About Your Child's Health and Happiness</h2>
-                        <div class="mt-3 " style="z-index:1">
-                            <a href="#child-care" class="btn-get-started scrollto">Explore Services</a>
-                        </div>
+
+
+    <section id="child-care" class="section" style="background-color: bisque;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Child Care Center Services</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch ">
+                    <div class="icon-box box-shadow p-4">
+                        <div class="icon"><i class="bx bx-calendar-check"></i></div>
+                        <h4><a href="#">Regular Check-ups</a></h4>
+                        <p>Our child care center emphasizes regular health check-ups to monitor your child's growth and
+                            well-being. Scheduled appointments ensure timely vaccinations and health assessments.</p>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2 cbanner-img">
-                        <!-- This div is used for the background image -->
-                        <div class="cbanner-bg"></div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                    <div class="icon-box box-shadow p-4">
+                        <div class="icon"><i class="bx bx-book"></i></div>
+                        <h4><a href="#">Educational Programs</a></h4>
+                        <p>We offer comprehensive educational programs tailored to nurture your child's intellectual
+                            curiosity and cognitive development. Our curriculum includes structured learning activities
+                            and interactive sessions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                    <div class="icon-box box-shadow p-4">
+                        <div class="icon"><i class="bx bx-heart-circle"></i></div>
+                        <h4><a href="#">Health & Nutrition</a></h4>
+                        <p>Health and nutrition are paramount in our child care center. We provide balanced meals and
+                            snacks, promoting healthy eating habits. Our staff ensures your child's dietary needs are
+                            met with nutritious options.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box box-shadow p-4">
+                        <div class="icon"><i class="bx bx-smile"></i></div>
+                        <h4><a href="#">Emotional Support</a></h4>
+                        <p>Emotional well-being is key to our child care philosophy. We create a supportive environment
+                            where children feel safe and valued. Our team helps children navigate emotions and develop
+                            positive social skills.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box box-shadow p-4">
+                        <div class="icon"><i class="bx bx-pencil"></i></div>
+                        <h4><a href="#">Creative Activities</a></h4>
+                        <p>Creativity is encouraged through various artistic and imaginative activities. From drawing
+                            and crafts to music and storytelling, children explore their creativity while having fun and
+                            developing fine motor skills.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box box-shadow p-4">
+                        <div class="icon"><i class="bx bx-group"></i></div>
+                        <h4><a href="#">Social Interaction</a></h4>
+                        <p>Social interaction is fostered through group play and collaborative learning experiences.
+                            Children learn to communicate, share, and cooperate, building friendships and essential
+                            social skills in a supportive environment.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Custom Banner Section -->
-    
-        <!-- ======= Top Bar ======= -->
-        <!-- Existing code continues here ... -->
-    
+        </div>
+    </section>
 
 
-
-        <section id="child-care" class="section" style="background-color: bisque;">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Child Care Center Services</h2>
-                </div>
-        
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch ">
-                        <div class="icon-box box-shadow p-4">
-                            <div class="icon"><i class="bx bx-calendar-check"></i></div>
-                            <h4><a href="#">Regular Check-ups</a></h4>
-                            <p>Our child care center emphasizes regular health check-ups to monitor your child's growth and well-being. Scheduled appointments ensure timely vaccinations and health assessments.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                        <div class="icon-box box-shadow p-4">
-                            <div class="icon"><i class="bx bx-book"></i></div>
-                            <h4><a href="#">Educational Programs</a></h4>
-                            <p>We offer comprehensive educational programs tailored to nurture your child's intellectual curiosity and cognitive development. Our curriculum includes structured learning activities and interactive sessions.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                        <div class="icon-box box-shadow p-4">
-                            <div class="icon"><i class="bx bx-heart-circle"></i></div>
-                            <h4><a href="#">Health & Nutrition</a></h4>
-                            <p>Health and nutrition are paramount in our child care center. We provide balanced meals and snacks, promoting healthy eating habits. Our staff ensures your child's dietary needs are met with nutritious options.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                        <div class="icon-box box-shadow p-4">
-                            <div class="icon"><i class="bx bx-smile"></i></div>
-                            <h4><a href="#">Emotional Support</a></h4>
-                            <p>Emotional well-being is key to our child care philosophy. We create a supportive environment where children feel safe and valued. Our team helps children navigate emotions and develop positive social skills.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                        <div class="icon-box box-shadow p-4">
-                            <div class="icon"><i class="bx bx-pencil"></i></div>
-                            <h4><a href="#">Creative Activities</a></h4>
-                            <p>Creativity is encouraged through various artistic and imaginative activities. From drawing and crafts to music and storytelling, children explore their creativity while having fun and developing fine motor skills.</p>
-                        </div>
-                    </div>
-        
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                        <div class="icon-box box-shadow p-4">
-                            <div class="icon"><i class="bx bx-group"></i></div>
-                            <h4><a href="#">Social Interaction</a></h4>
-                            <p>Social interaction is fostered through group play and collaborative learning experiences. Children learn to communicate, share, and cooperate, building friendships and essential social skills in a supportive environment.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-    
     <section id="registration" class="section">
         <div class="container ">
             <div class="section-title text-center mb-5">
                 <h2>Registration Form</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis iste quia id suscipit quisquam labore consequatur cum provident nisi, ex repudiandae ratione debitis consectetur facere at doloremque non tempore.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis iste quia id suscipit
+                    quisquam labore consequatur cum provident nisi, ex repudiandae ratione debitis consectetur facere at
+                    doloremque non tempore.
+                </p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-10">
@@ -170,19 +170,24 @@
                         <form action="registration_process.php" method="post" role="form">
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <input type="text" name="parent_name" class="form-control" id="parent_name" placeholder="Your Name" required>
+                                    <input type="text" name="parent_name" class="form-control" id="parent_name"
+                                        placeholder="Your Name" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" class="form-control" name="parent_email" id="parent_email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" name="parent_email" id="parent_email"
+                                        placeholder="Your Email" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="tel" name="parent_phone" class="form-control" id="parent_phone" placeholder="Your Phone" required>
+                                    <input type="tel" name="parent_phone" class="form-control" id="parent_phone"
+                                        placeholder="Your Phone" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="child_name" class="form-control" id="child_name" placeholder="Child's Name" required>
+                                    <input type="text" name="child_name" class="form-control" id="child_name"
+                                        placeholder="Child's Name" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="child_age" class="form-control" id="child_age" placeholder="Child's Age" required>
+                                    <input type="text" name="child_age" class="form-control" id="child_age"
+                                        placeholder="Child's Age" required>
                                 </div>
                                 <div class="col-md-6">
                                     <select name="child_gender" id="child_gender" class="form-control" required>
@@ -193,7 +198,8 @@
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Additional Message (optional)"></textarea>
+                                    <textarea class="form-control" name="message" rows="5"
+                                        placeholder="Additional Message (optional)"></textarea>
                                 </div>
                                 <div class="col-12 text-center mt-3">
                                     <button type="submit" class="btn btn-primary">Submit Registration</button>
@@ -205,8 +211,7 @@
             </div>
         </div>
     </section>
-    
-    
+
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -238,13 +243,18 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Child Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Old Age Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Ambulance Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Home Nursing Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Medical Equipment Rental</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Physical Therapy Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Emergency Response Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Companion Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Telehealth Service</a></li>
                         </ul>
                     </div>
+
 
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Join Our Newsletter</h4>
@@ -281,7 +291,8 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -294,7 +305,16 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
-
+    <script>
+        function showPhoneNumbers(button) {
+            var phoneNumbers = button.nextElementSibling;
+            if (phoneNumbers.style.display === "block") {
+                phoneNumbers.style.display = "none";
+            } else {
+                phoneNumbers.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 

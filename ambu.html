@@ -31,25 +31,28 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/new.css" rel="stylesheet">
-
     <style>
-       .emergency-contact-card {
+        .emergency-contact-card {
             transition: box-shadow 0.3s ease;
             border-radius: 10px;
             color: white;
             background-color: #007bff;
         }
+
         .emergency-contact-card:hover {
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
+
         .emergency-contact-icon {
             font-size: 2rem;
             color: white;
         }
+
         .card-title {
             font-size: 1.25rem;
             margin-bottom: 0.5rem;
         }
+
         .card-body {
             padding: 20px;
         }
@@ -58,7 +61,7 @@
 
 <body>
     <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div id="topbar" class="d-flex align-items-center fixed-top" style="z-index: 9999;">
         <div class="container d-flex justify-content-between">
             <div class="contact-info d-flex align-items-center">
                 <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
@@ -73,7 +76,7 @@
         </div>
     </div>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top" style="z-index: 9999; ">
         <div class="container d-flex align-items-center">
 
             <h1 class="logo me-auto"><a href="index.html">Sohoz Seba</a></h1>
@@ -83,7 +86,8 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.html">About</a></li>
-                    <li><a class="nav-link scrollto" href="service.html">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
                     <li><a class="nav-link scrollto" href="doctors.html">Doctors</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
@@ -97,18 +101,22 @@
         </div>
     </header>
     <!-- End Header -->
-    <!-- ======= Ambulance Banner Section ======= -->
-   <!-- ======= Ambulance Banner Section ======= -->
-<section id="ambulance-banner" class="d-flex align-items-center"
-style="background: url('assets/img/ambu2.jpg') top center; background-size: cover; height: 400px; margin-top: 80px; position: relative;">
-<div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
-<div class="container text-center position-relative text-white" data-aos="fade-in" data-aos-delay="200" style="z-index: 1;">
-<h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Emergency Ambulance Service</h1>
-<h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Available 24/7 to assist you in medical emergencies</h2>
-</div>
-</section>
-<!-- End Ambulance Banner Section -->
 
+
+    <!-- End Header -->
+    <!-- ======= Ambulance Banner Section ======= -->
+    <section id="ambulance-banner" class="d-flex align-items-center"
+        style="background: url('assets/img/ambu2.jpg') top center; background-size: cover; height: 400px; margin-top: 80px; position: relative;">
+        <div class="overlay"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);">
+        </div>
+        <div class="container text-center position-relative text-white" data-aos="fade-in" data-aos-delay="200"
+            style="z-index: 1;">
+            <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Emergency Ambulance Service</h1>
+            <h2 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Available 24/7 to assist you in medical emergencies
+            </h2>
+        </div>
+    </section>
     <!-- End Ambulance Banner Section -->
 
     <!-- ======= Emergency Ambulance Details Section ======= -->
@@ -119,16 +127,16 @@ style="background: url('assets/img/ambu2.jpg') top center; background-size: cove
                     <h2>Emergency Ambulance Details</h2>
                     <p>Our ambulance service is equipped with the latest medical equipment and staffed by trained
                         professionals to provide you with the best care possible during emergencies.</p>
-                        <ul>
-                            <li>24/7 availability</li>
-                            <li>Rapid response times</li>
-                            <li>Advanced life support systems</li>
-                            <li>Qualified medical personnel</li>
-                            <li>Emergency transport to hospitals</li>
-                            <li>Specialized medical care as needed</li>
-                        </ul>
+                    <ul>
+                        <li>24/7 availability</li>
+                        <li>Rapid response times</li>
+                        <li>Advanced life support systems</li>
+                        <li>Qualified medical personnel</li>
+                        <li>Emergency transport to hospitals</li>
+                        <li>Specialized medical care as needed</li>
+                    </ul>
                 </div>
-                
+
                 <div class="col-lg-6">
                     <img src="assets/img/ambu2.jpg" class="img-fluid" alt="Ambulance">
                 </div>
@@ -229,6 +237,9 @@ style="background: url('assets/img/ambu2.jpg') top center; background-size: cove
     </section>
 
 
+
+
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
 
@@ -259,13 +270,18 @@ style="background: url('assets/img/ambu2.jpg') top center; background-size: cove
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Child Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Old Age Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Ambulance Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Home Nursing Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Medical Equipment Rental</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Physical Therapy Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Emergency Response Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Companion Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Telehealth Service</a></li>
                         </ul>
                     </div>
+
 
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Join Our Newsletter</h4>
@@ -315,7 +331,6 @@ style="background: url('assets/img/ambu2.jpg') top center; background-size: cove
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
 
 
 </body>

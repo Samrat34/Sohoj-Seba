@@ -14,7 +14,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -29,11 +31,14 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/new.css" rel="stylesheet">
+    <style>
+
+    </style>
 </head>
 
 <body>
     <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div id="topbar" class="d-flex align-items-center fixed-top" style="z-index: 9999;">
         <div class="container d-flex justify-content-between">
             <div class="contact-info d-flex align-items-center">
                 <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
@@ -48,7 +53,7 @@
         </div>
     </div>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+    <header id="header" class="fixed-top" style="z-index: 9999; ">
         <div class="container d-flex align-items-center">
 
             <h1 class="logo me-auto"><a href="index.html">Sohoz Seba</a></h1>
@@ -58,7 +63,8 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.html">About</a></li>
-                    <li><a class="nav-link scrollto" href="service.html">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
                     <li><a class="nav-link scrollto" href="doctors.html">Doctors</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
@@ -66,148 +72,152 @@
             </nav>
             <!-- .navbar -->
 
-            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span>
+                Appointment</a>
 
         </div>
     </header>
     <!-- End Header -->
 
-
-
-    
-<!-- ======= Services Section ======= -->
-<section id="services" class="services">
-    <div class="container" data-aos="fade-up">
-        <div class="section-title">
-            <h2>Our Services</h2>
-            <p>Explore the range of services we offer to ensure the best care for the elderly.</p>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box">
-                    <div class="icon"><i class="fas fa-stethoscope"></i></div>
-                    <h4 class="title"><a href="">24/7 Medical Support</a></h4>
-                    <p class="description">Round-the-clock medical assistance and monitoring to ensure the health and well-being of our residents.</p>
-                </div>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Explore the range of services we offer to ensure the best care for the elderly.</p>
             </div>
 
-            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box">
-                    <div class="icon"><i class="fas fa-hands-helping"></i></div>
-                    <h4 class="title"><a href="">Assisted Living</a></h4>
-                    <p class="description">Personalized care and support for daily activities, ensuring comfort and independence.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box">
-                    <div class="icon"><i class="fas fa-dumbbell"></i></div>
-                    <h4 class="title"><a href="">Physical Therapy</a></h4>
-                    <p class="description">Comprehensive physical therapy programs to maintain and improve mobility and strength.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box">
-                    <div class="icon"><i class="fas fa-chess"></i></div>
-                    <h4 class="title"><a href="">Recreational Activities</a></h4>
-                    <p class="description">A variety of activities to keep our residents engaged, entertained, and socially active.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box">
-                    <div class="icon"><i class="fas fa-utensils"></i></div>
-                    <h4 class="title"><a href="">Nutritious Meals</a></h4>
-                    <p class="description">Delicious and balanced meals tailored to meet the dietary needs of our residents, ensuring they receive the proper nutrition.</p>
-                </div>
-            </div>
-            
-            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box">
-                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
-                    <h4 class="title"><a href="">Security & Safety</a></h4>
-                    <p class="description">Comprehensive security measures and safety protocols to protect our residents and provide peace of mind.</p>
-                </div>
-            </div>
-            
-
-        </div>
-    </div>
-</section>
-<!-- End Testimonials Section -->
-        <!-- ======= Appointment Section ======= -->
-        <section id="appointment" class="appointment section-bg">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Make an Appointment</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
-                </div>
-
-                <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-                    <div class="row">
-                        <div class="col-md-4 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                            <div class="validate"></div>
-                        </div>
-                        <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                data-rule="email" data-msg="Please enter a valid email">
-                            <div class="validate"></div>
-                        </div>
-                        <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone"
-                                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                            <div class="validate"></div>
-                        </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-stethoscope"></i></div>
+                        <h4 class="title"><a href="">24/7 Medical Support</a></h4>
+                        <p class="description">Round-the-clock medical assistance and monitoring to ensure the health
+                            and well-being of our residents.</p>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 form-group mt-3">
-                            <input type="datetime" name="date" class="form-control datepicker" id="date"
-                                placeholder="Appointment Date" data-rule="minlen:4"
-                                data-msg="Please enter at least 4 chars">
-                            <div class="validate"></div>
-                        </div>
-                        <div class="col-md-4 form-group mt-3">
-                            <select name="department" id="department" class="form-select">
-                                <option value="">Select Department</option>
-                                <option value="Department 1">Department 1</option>
-                                <option value="Department 2">Department 2</option>
-                                <option value="Department 3">Department 3</option>
-                            </select>
-                            <div class="validate">asdfasdfasdflajsldkj</div>
-                        </div>
-                        <div class="col-md-4 form-group mt-3">
-                            <select name="doctor" id="doctor" class="form-select">
-                                <option value="">Select Doctor</option>
-                                <option value="Doctor 1">Doctor 1</option>
-                                <option value="Doctor 2">Doctor 2</option>
-                                <option value="Doctor 3">Doctor 3</option>
-                            </select>
-                            <div class="validate"></div>
-                        </div>
-                    </div>
+                </div>
 
-                    <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5"
-                            placeholder="Message (Optional)"></textarea>
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-hands-helping"></i></div>
+                        <h4 class="title"><a href="">Assisted Living</a></h4>
+                        <p class="description">Personalized care and support for daily activities, ensuring comfort and
+                            independence.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-dumbbell"></i></div>
+                        <h4 class="title"><a href="">Physical Therapy</a></h4>
+                        <p class="description">Comprehensive physical therapy programs to maintain and improve mobility
+                            and strength.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-chess"></i></div>
+                        <h4 class="title"><a href="">Recreational Activities</a></h4>
+                        <p class="description">A variety of activities to keep our residents engaged, entertained, and
+                            socially active.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-utensils"></i></div>
+                        <h4 class="title"><a href="">Nutritious Meals</a></h4>
+                        <p class="description">Delicious and balanced meals tailored to meet the dietary needs of our
+                            residents, ensuring they receive the proper nutrition.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4 class="title"><a href="">Security & Safety</a></h4>
+                        <p class="description">Comprehensive security measures and safety protocols to protect our
+                            residents and provide peace of mind.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials Section -->
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Make an Appointment</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi
+                    quidem hic quas.</p>
+            </div>
+
+            <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-md-4 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                         <div class="validate"></div>
                     </div>
-                    <div class="mb-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                            data-rule="email" data-msg="Please enter a valid email">
+                        <div class="validate"></div>
                     </div>
-                    <div class="text-center"><button type="submit">Make an Appointment</button></div>
-                </form>
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 form-group mt-3">
+                        <input type="datetime" name="date" class="form-control datepicker" id="date"
+                            placeholder="Appointment Date" data-rule="minlen:4"
+                            data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-4 form-group mt-3">
+                        <select name="department" id="department" class="form-select">
+                            <option value="">Select Department</option>
+                            <option value="Department 1">Department 1</option>
+                            <option value="Department 2">Department 2</option>
+                            <option value="Department 3">Department 3</option>
+                        </select>
+                        <div class="validate">asdfasdfasdflajsldkj</div>
+                    </div>
+                    <div class="col-md-4 form-group mt-3">
+                        <select name="doctor" id="doctor" class="form-select">
+                            <option value="">Select Doctor</option>
+                            <option value="Doctor 1">Doctor 1</option>
+                            <option value="Doctor 2">Doctor 2</option>
+                            <option value="Doctor 3">Doctor 3</option>
+                        </select>
+                        <div class="validate"></div>
+                    </div>
+                </div>
 
-            </div>
-        </section>
-        <!-- End Appointment Section -->
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Make an Appointment</button></div>
+            </form>
+
+        </div>
+    </section>
+    <!-- End Appointment Section -->
 
 
     <!-- ======= Footer ======= -->
@@ -240,13 +250,18 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Child Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Old Age Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Ambulance Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Home Nursing Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Medical Equipment Rental</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Physical Therapy Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Emergency Response Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Companion Care Service</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Telehealth Service</a></li>
                         </ul>
                     </div>
+
 
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Join Our Newsletter</h4>
@@ -283,7 +298,8 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -296,7 +312,16 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
-
+    <script>
+        function showPhoneNumbers(button) {
+            var phoneNumbers = button.nextElementSibling;
+            if (phoneNumbers.style.display === "block") {
+                phoneNumbers.style.display = "none";
+            } else {
+                phoneNumbers.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 
